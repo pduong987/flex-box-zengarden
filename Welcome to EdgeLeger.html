@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Welcome to EdgeLeger_files/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Welcome to EdgeLeger_files/utilities.css">
+    <link rel="stylesheet" href="./Welcome to EdgeLeger_files/style.css">
+    <title>Welcome to EdgeLeger</title>
+  </head>
+  <body id="home">
+    <header class="hero">
+      <div id="navbar" class="navbar">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Leger</h1>
+          <nav>
+            <ul>
+              <li><a href="http://127.0.0.1:5500/index.html#home">Home</a></li>
+              <li><a href="http://127.0.0.1:5500/index.html#about">About</a></li>
+              <li><a href="http://127.0.0.1:5500/index.html#cases">Cases</a></li>
+              <li><a href="http://127.0.0.1:5500/index.html#blog">Blog</a></li>
+              <li><a href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="content">
+            <h1>The Sky Is The Limit</h1>
+            <p>We provide world class financial assistance</p>
+            <a href="http://127.0.0.1:5500/index.html#about" class="btn"><i class="fas fa-chevron-right"></i> Read More</a>
+        </div>
+        
+    </header>
+
+    <main>
+        <section id="about" class="icons bg-light">
+            <div class="flex-items">
+                <div>
+                    <i class="fas fa-uinversity fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, non!
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, non!
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, non!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+          
+
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
